@@ -244,17 +244,11 @@
   .sticky {
     position: sticky;
   }
-  .left-\[20\%\] {
-    left: 20%;
-  }
   .isolate {
     isolation: isolate;
   }
   .isolation-auto {
     isolation: auto;
-  }
-  .z-50 {
-    z-index: 50;
   }
   .z-auto {
     z-index: auto;
@@ -276,9 +270,6 @@
   }
   .col-start-1 {
     grid-column-start: 1;
-  }
-  .col-start-2 {
-    grid-column-start: 2;
   }
   .col-start-auto {
     grid-column-start: auto;
@@ -499,9 +490,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -510,9 +498,6 @@
   }
   .w-\[70\%\] {
     width: 70%;
-  }
-  .w-\[80\%\] {
-    width: 80%;
   }
   .w-\[100\%\] {
     width: 100%;
@@ -753,17 +738,8 @@
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
-  .grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .grid-cols-\[1fr\] {
-    grid-template-columns: 1fr;
-  }
   .grid-cols-\[1fr_4fr\] {
     grid-template-columns: 1fr 4fr;
-  }
-  .grid-cols-\[3fr_1fr\] {
-    grid-template-columns: 3fr 1fr;
   }
   .grid-cols-none {
     grid-template-columns: none;
@@ -771,29 +747,8 @@
   .grid-cols-subgrid {
     grid-template-columns: subgrid;
   }
-  .grid-rows-\[1fr_7fr\] {
-    grid-template-rows: 1fr 7fr;
-  }
-  .grid-rows-\[1fr_12fr\] {
-    grid-template-rows: 1fr 12fr;
-  }
-  .grid-rows-\[1fr_15fr\] {
-    grid-template-rows: 1fr 15fr;
-  }
-  .grid-rows-\[1fr_18fr\] {
-    grid-template-rows: 1fr 18fr;
-  }
-  .grid-rows-\[1fr_19fr\] {
-    grid-template-rows: 1fr 19fr;
-  }
-  .grid-rows-\[1fr_20fr\] {
-    grid-template-rows: 1fr 20fr;
-  }
   .grid-rows-\[1fr_24fr\] {
     grid-template-rows: 1fr 24fr;
-  }
-  .grid-rows-\[1fr_25fr\] {
-    grid-template-rows: 1fr 25fr;
   }
   .grid-rows-\[1fr_27fr\] {
     grid-template-rows: 1fr 27fr;
@@ -1388,9 +1343,6 @@
   }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
-  }
-  .py-3 {
-    padding-block: calc(var(--spacing) * 3);
   }
   .pr-3 {
     padding-right: calc(var(--spacing) * 3);
@@ -1988,11 +1940,6 @@
   .transform-view {
     transform-box: view-box;
   }
-  .sm\:bg-black {
-    @media (width >= 40rem) {
-      background-color: var(--color-black);
-    }
-  }
   .md\:col-start-2 {
     @media (width >= 48rem) {
       grid-column-start: 2;
@@ -2033,11 +1980,6 @@
       gap: calc(var(--spacing) * 5);
     }
   }
-  .md\:bg-\[red\] {
-    @media (width >= 48rem) {
-      background-color: red;
-    }
-  }
   .md\:p-0 {
     @media (width >= 48rem) {
       padding: calc(var(--spacing) * 0);
@@ -2056,16 +1998,6 @@
   .lg\:block {
     @media (width >= 64rem) {
       display: block;
-    }
-  }
-  .lg\:bg-\[green\] {
-    @media (width >= 64rem) {
-      background-color: green;
-    }
-  }
-  .xl\:bg-\[yellow\] {
-    @media (width >= 80rem) {
-      background-color: yellow;
     }
   }
 }
